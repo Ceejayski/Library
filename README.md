@@ -12,16 +12,16 @@ This is the first project in the Microverse Javascript module. The goal of the p
 
 ## 🚀 Our Project
 
-Our project can be found at https://github.com/Ceejayski/Simple-JS-UI-Library-
+Our project can be found at https://github.com/Ceejayski/Library
 ## Live Demo
 
-You can find the demo [here](https://ceejayski.github.io/Simple-JS-UI-Library-/)
+You can find the demo [here](https://ceejayski.github.io/Library/)
 
 
 ## To run the project in local
 
-- clone the repository from here [repo link](https://github.com/Ceejayski/Simple-JS-UI-Library-)
-- navidate to the folder `Simple-JS-UI-Library-`
+- clone the repository from here [repo link](https://github.com/Ceejayski/Library)
+- navidate to the folder `Library`
 - open index.html with your browser
 
 ## 👨🏽‍💻 👨🏿‍💻 Creators
