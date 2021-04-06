@@ -14,7 +14,7 @@
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",
-    "arrow-parens": "off",
+    "no-alert": "off",
     "max-classes-per-file": "off"
   },
   "ignorePatterns": [
