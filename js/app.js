@@ -113,14 +113,13 @@ class UI {
       // Clear fields
       this.clearFields();
     }
-  
   }
 
   btnDisplay(e, form, addBookBtn) {
     if (e.target.classList.contains("btn-d-none")) {
       form.classList.remove("d-none");
       form.classList.add("d-block");
-  
+
       addBookBtn.classList.remove("d-block");
       addBookBtn.classList.add("d-none");
     }
@@ -137,8 +136,8 @@ document.getElementById("book-form").addEventListener("submit", (e) => {
 
   const book = new Book(title, author, genre, page, read);
   const ui = new UI();
-  
-  ui.domMan(book, title, author, genre, page)
+
+  ui.domMan(book, title, author, genre, page);
 
   form.classList.remove("d-block");
   form.classList.add("d-none");
@@ -151,5 +150,5 @@ document.querySelector(".container").addEventListener("click", (e) => {
   const form = document.getElementById("book-form");
   ui.deleteBook(e.target);
   ui.readBook(e.target);
-  ui.btnDisplay(e, form, addBookBtn)
+  ui.btnDisplay(e, form, addBookBtn);
 });
